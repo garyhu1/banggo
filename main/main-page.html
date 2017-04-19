@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>邦购</title>
+		<link rel="stylesheet" type="text/css" href="../css/main-page1.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main-page2.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main-page3.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main-page4.css" />
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/angular.min.js"></script>
+	</head>
+
+	<body>
+		<!--广告栏-->
+		<div class="ad-layout">
+			<img src="../img/ad-img.jpg" style="width: 1200px;height: 80px;display:block;margin: 0 auto;" />
+		</div>
+		<!--首页的引导栏-->
+		<div class="bg-header-introline">
+			<div class="bg-header-intro">
+				<p>欢迎来到邦购网，全场满199元包邮</p>
+				<div class="bg-right-btn">
+					<div class="bg-login-layout">
+						<a href="" class="login-btn">登录</a>
+						<div class="others-login-types others-show">
+							<a href="http://bgact.banggo.com/Unionlogin/Authorize?from=qq">QQ账户登录</a>
+							<a href="http://bgact.banggo.com/Unionlogin/Authorize?from=alipay">支付宝登录</a>
+							<a href="http://m.banggo.com/Api/wxLogin">微信账户登录</a>
+						</div>
+					</div>
+					<div>
+						<a href="">注册</a>
+					</div>
+					<div class="my-banggo-layout">
+						<a href="">我的邦购<img src="../img/logo-bg.png" style="margin-left: 5px;" /></a>
+						<div class="my-banggo my-banggo-show">
+							<a href="">我的订单</a>
+							<a href="">我的积分</a>
+							<a href="">我的点赞</a>
+							<a href="">收货地址</a>
+						</div>
+					</div>
+					<div>
+						<a href="">会员中心</a>
+					</div>
+					<div class="download-layout">
+						<a href="">
+							<b style="width:9px;height:10px;background:url('http://s.banggo.com/pub7/images/mbshop/common/Iphone-vertical.png') 0 0 no-repeat;padding-right:12px;"></b> 下载APP
+							<img src="../img/logo-bg.png" />
+						</a>
+						<div class="download download-show">
+							<img src="../img/xiazai.png" style="width: 100px;height: 100px;" />
+						</div>
+					</div>
+					<div>
+						<a href="">微博</a>
+					</div>
+					<div class="weixin-layout">
+						<a href="">微信</a>
+						<div class="weixin weixin-show">
+							<img src="../img/weixin.jpg" style="width: 100px;height: 100px;" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 搜索布局-->
+		<div class="second-layout">
+			<img src="../img/logo.png" class="logo-img" />
+			<input type="text" placeholder="夏季新品买即赠时尚凉拖→" class="search-edt" />
+			<input type="submit" value="搜索" class="search-btn" />
+			<ul class="cloth-style">
+				<li>
+					<a href="">夏尚新</a>|</li>
+				<li>
+					<a href="">衬衫</a>|</li>
+				<li>
+					<a href="">T恤</a>|</li>
+				<li>
+					<a href="">夹克</a>|</li>
+				<li>
+					<a href="">休闲裤</a>|</li>
+				<li>
+					<a href="">每满159减50</a>
+				</li>
+			</ul>
+			<div class="cart-layout">
+				<img src="../img/logo-right.png" />
+				<p>购物袋<span>0</span>件</p>
+			</div>
+		</div>
+
+		<!--第三行布局-->
+		<div class="third-line">
+			<div class="third-layout">
+				<div class="goods-category">
+					<img src="../img/nav-left.png" style="margin-left: 10px;" />
+					<p style="margin-left: 10px;color: #fff;font-size: 14px;">商品分类</p>
+				</div>
+				<ul class="nav-layout">
+					<li><img src="../img/nav-1.png" /></li>
+					<li><img src="../img/nav-2.png" /></li>
+					<li><img src="../img/nav-3.png" /></li>
+					<li><img src="../img/nav-4.png" /></li>
+					<li><img src="../img/nav-5.png" /></li>
+					<li><img src="../img/nav-6.jpg" /></li>
+				</ul>
+				<img src="../img/nav-right.gif" class="nav-right" />
+			</div>
+		</div>
+
+		<!--带有banner的布局-->
+		<div class="goods-category-layout">
+			<!--左边商品种类-->
+			<div class="bg-goods-category">
+				<!--第一种类型-->
+				<div class="category-layout" id="category1">
+					<div>
+						<h5>热销分类</h5>
+						<div class="sub-layout">
+							<a href="">衬衫</a>
+							<a href="" class="specilly">夹克</a>
+							<a href="" class="specilly">休闲长裤</a>
+							<a href="">牛仔长裤</a>
+							<a href="">短袖T恤</a>
+							<a href="">卫衣</a>
+							<a href="">毛衫</a>
+							<a href="">休闲鞋</a>
+						</div>
+						<img src="../img/p-bg.png" class="right-arrow" id="arrow-right1" />
+					</div>
+					<div class="goods-intro" id="goods-intro1">
+						<!--向左的图标-->
+						<div class="left-arrow-layout">
+							<div class="icon1">
+								<img src="../img/li-bg.png" />
+							</div>
+						</div>
+						<!--详细的介绍内容-->
+						<div class="category-intro">
+							<h4>男生热门</h4>
+							<div class="c-1">
+								<a href="">春新品</a>
+								<a href="" >新品夹克</a>
+								<a href="" >军装夹克</a>
+								<a href="">衬衫</a>
+								<a href="">慢跑裤</a>
+								<a href="">百搭休闲裤</a>
+							</div>
+							<h4>女生热门</h4>
+							<div class="c-1">
+								<a href="">春新品</a>
+								<a href="" >商场同款</a>
+								<a href="" >风衣</a>
+								<a href="">夹克</a>
+								<a href="">裙装</a>
+								<a href="">背带裙/背带裤</a>
+								<a href="">阔腿裤</a>
+							</div>
+							<h4>儿童热门</h4>
+							<div class="c-1">
+								<a href="">春新品</a>
+								<a href="" >套装</a>
+								<a href="" >外套</a>
+								<a href="">裤子</a>
+								<a href="">毛衣</a>
+								<a href="">卫衣</a>
+							</div>
+							<h4>生活热门</h4>
+							<div class="c-1">
+								<a href="">春新品</a>
+								<a href="" >新品夹克</a>
+								<a href="" >军装夹克</a>
+								<a href="">衬衫</a>
+								<a href="">慢跑裤</a>
+								<a href="">百搭休闲裤</a>
+							</div>
+						</div>
+						<!--图片和品牌-->
+						<div class="img-brand">
+							<img src="../img/intro1.jpg" />
+							<div>
+								<p>当季热门流行品牌</p>
+								<div class="intro-img-layout">
+									<img src="../img/intro-img1.jpg"/>
+									<img src="../img/intro-img2.png"/>
+									<img src="../img/intro-img3.png"/>
+									<img src="../img/intro-img4.jpg"/>
+									<img src="../img/intro-img5.jpg"/>
+									<img src="../img/intro-img6.png"/>
+									<img src="../img/intro-img7.jpg"/>
+									<img src="../img/intro-img8.jpg"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--第二种类型-->
+				<div class="category-layout" id="category2">
+					<h5>男装</h5>
+					<div class="">
+						<div class="sub-layout">
+							<a href="" class="specilly">夹克</a>
+							<a href="">休闲长裤</a>
+							<a href="">长袖衬衫</a>
+							<a href="">T恤</a>
+							<a href="" class="specilly">牛仔长裤</a>
+							<a href="">卫衣</a>
+							<a href="">西装</a>
+							<a href="">长衫</a>
+						</div>
+						<img src="../img/p-bg.png" class="right-arrow" id="arrow-right2" />
+					</div>
+					<div class="goods-intro" id="goods-intro2">
+						<!--向左的图标-->
+						<div class="left-arrow-layout">
+							<div class="icon2">
+								<img src="../img/li-bg.png" />
+							</div>
+						</div>
+						<!--详细的介绍内容-->
+						<div class="category-intro">
+							<h4>上装</h4>
+							<div class="c-1">
+								<a href="">呢大衣</a>
+								<a href="" >毛织背心</a>
+								<a href="" >皮衣</a>
+								<a href="">夹克</a>
+								<a href="">毛衣</a>
+								<a href="">长袖T恤</a>
+								<a href="">卫衣</a>
+								<a href="">长袖衬衫</a>
+								<a href="">西装</a>
+								<a href="">套头卫衣</a>
+							</div>
+							<h4>下装</h4>
+							<div class="c-1">
+								<a href="">牛仔长裤</a>
+								<a href="" >休闲长裤</a>
+								<a href="" >西裤</a>
+								<a href="">运动长裤</a>
+								<a href="">针织长裤</a>
+								<a href="">中短裤</a>
+							</div>
+							<h4>内衣</h4>
+							<div class="c-1">
+								<a href="">背心</a>
+								<a href="" >内衣裤装</a>
+								<a href="" >袜子</a>
+								<a href="">家居服</a>
+							</div>
+						</div>
+						<!--图片和品牌-->
+						<div class="img-brand">
+							<img src="../img/intro2.jpg" />
+							<div>
+								<p>男装热门品牌</p>
+								<div class="intro-img-layout">
+									<img src="../img/intro-img2-1.png"/>
+									<img src="../img/intro-img2-2.jpg"/>
+									<img src="../img/intro-img2-3.png"/>
+									<img src="../img/intro-img2-4.jpg"/>
+									<img src="../img/intro-img2-5.jpg"/>
+									<img src="../img/intro-img2-6.jpg"/>
+									<img src="../img/intro-img2-7.png"/>
+									<img src="../img/intro-img2-8.jpg"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--第三种类型-->
+				<div class="category-layout" id="category3">
+					<div class="">
+						<h5>女装</h5>
+						<div class="sub-layout">
+							<a href="" class="specilly">夹克</a>
+							<a href="">休闲长裤</a>
+							<a href="">长袖衬衫</a>
+							<a href="">T恤</a>
+							<a href="" class="specilly">牛仔长裤</a>
+							<a href="">卫衣</a>
+							<a href="">西装</a>
+							<a href="">长衫</a>
+						</div>
+						<img src="../img/p-bg.png" class="right-arrow" id="arrow-right3" />
+					</div>
+
+					<div class="goods-intro" id="goods-intro3">
+						<!--向左的图标-->
+						<div class="left-arrow-layout">
+							<div class="icon3">
+								<img src="../img/li-bg.png" />
+							</div>
+						</div>
+						<!--详细的介绍内容-->
+						<div class="category-intro">
+							<h4>上装</h4>
+							<div class="c-1">
+								<a href="">风衣</a>
+								<a href="" >夹克</a>
+								<a href="" >外套</a>
+								<a href="">毛衣</a>
+								<a href="">长袖衬衫</a>
+								<a href="">大衣</a>
+								<a href="">毛衣</a>
+								<a href="">马甲</a>
+								<a href="">T恤</a>
+								<a href="">卫衣</a>
+							</div>
+							<h4>下装</h4>
+							<div class="c-1">
+								<a href="">牛仔裤</a>
+								<a href="" >打底裤</a>
+								<a href="" >运动裤</a>
+								<a href="">休闲裤</a>
+								<a href="">连身裤</a>
+								<a href="">阔腿裤</a>
+								<a href="">短裤</a>
+								<a href="">针织休闲裤</a>
+								<a href="">西裤</a>
+							</div>
+							<h4>裙装</h4>
+							<div class="c-1">
+								<a href="">连衣裙</a>
+								<a href="" >半身裙</a>
+							</div>
+							<h4>内衣</h4>
+							<div class="c-1">
+								<a href="">吊带</a>
+								<a href="" >内衣裤装</a>
+								<a href="" >家居套装</a>
+								<a href="">文胸</a>
+								<a href="">袜子</a>
+							</div>
+						</div>
+						<!--图片和品牌-->
+						<div class="img-brand">
+							<img src="../img/intro3.jpg" />
+							<div>
+								<p>女装热门品牌</p>
+								<div class="intro-img-layout">
+									<img src="../img/intro-img3-1.jpg"/>
+									<img src="../img/intro-img3-2.png"/>
+									<img src="../img/intro-img3-3.jpg"/>
+									<img src="../img/intro-img3-4.jpg"/>
+									<img src="../img/intro-img3-5.jpg"/>
+									<img src="../img/intro-img3-6.jpg"/>
+									<img src="../img/intro-img3-7.jpg"/>
+									<img src="../img/intro-img3-8.jpg"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--第四种类型-->
+				<div class="category-layout" id="category4">
+					<div class="">
+						<h5>儿童</h5>
+						<div class="sub-layout">
+							<a href="">衬衫</a>
+							<a href="" class="specilly">牛仔长裤</a>
+							<a href="">套头毛衣</a>
+							<a href="">夹克</a>
+							<a href="">针织裤</a>
+							<a href="">卫衣</a>
+							<a href="">童鞋</a>
+							<a href="">童包配</a>
+						</div>
+						<img src="../img/p-bg.png" class="right-arrow" id="arrow-right4" />
+					</div>
+
+					<div class="goods-intro" id="goods-intro4">
+						<!--向左的图标-->
+						<div class="left-arrow-layout">
+							<div class="icon4">
+								<img src="../img/li-bg.png" />
+							</div>
+						</div>
+						<!--详细的介绍内容-->
+						<div class="category-intro">
+							<h4>上装</h4>
+							<div class="c-1">
+								<a href="">套头毛衣</a>
+								<a href="" >夹克</a>
+								<a href="" >长袖T恤</a>
+								<a href="">衬衫</a>
+								<a href="">套头卫衣</a>
+								<a href="">外套</a>
+							</div>
+							<h4>下装</h4>
+							<div class="c-1">
+								<a href="">针织裤</a>
+								<a href="" >背带裤</a>
+								<a href="" >牛仔裤</a>
+								<a href="">休闲裤</a>
+								<a href="">打底裤</a>
+								<a href="">半身裙</a>
+							</div>
+							<h4>连身</h4>
+							<div class="c-1">
+								<a href="">连衣裙</a>
+								<a href="" >内衣套装</a>
+								<a href="" >背带裤</a>
+								<a href="">T恤套装</a>
+							</div>
+							<h4>搭配</h4>
+							<div class="c-1">
+								<a href="">童鞋</a>
+								<a href="" >童包</a>
+								<a href="" >童配饰</a>
+							</div>
+						</div>
+						<!--图片和品牌-->
+						<div class="img-brand">
+							<img src="../img/intro4.jpg" />
+							<div>
+								<p>童装热门品牌</p>
+								<div class="intro-img-layout">
+									<img src="../img/intro-img4-1.jpg"/>
+									<img src="../img/intro-img4-2.jpg"/>
+									<img src="../img/intro-img4-3.jpg"/>
+									<img src="../img/intro-img4-4.jpg"/>
+									<img src="../img/intro-img4-5.jpg"/>
+									<img src="../img/intro-img4-6.jpg"/>
+									<img src="../img/intro-img4-7.jpg"/>
+									<img src="../img/intro-img4-8.jpg"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--第五种类型-->
+				<div class="category-layout" id="category5">
+					<div class="">
+						<h5>鞋履</h5>
+						<div class="sub-layout">
+							<a href="">休闲鞋</a>
+							<a href="">跑步鞋</a>
+							<a href="">帆布鞋</a>
+							<a href="">时装鞋</a>
+							<a href="">篮球鞋</a>
+							<a href="" class="specilly">运动鞋</a>
+						</div>
+						<img src="../img/p-bg.png" class="right-arrow" id="arrow-right5" />
+					</div>
+
+					<div class="goods-intro" id="goods-intro5">
+						<!--向左的图标-->
+						<div class="left-arrow-layout">
+							<div class="icon5">
+								<img src="../img/li-bg.png" />
+							</div>
+						</div>
+						<!--详细的介绍内容-->
+						<div class="category-intro">
+							<h4>人气男鞋</h4>
+							<div class="c-1">
+								<a href="">休闲鞋</a>
+								<a href="" >运动鞋</a>
+								<a href="" >商务鞋</a>
+								<a href="">时装鞋</a>
+								<a href="">帆布鞋</a>
+								<a href="">跑步鞋</a>
+								<a href="">篮球鞋</a>
+								<a href="">凉拖凉鞋</a>
+							</div>
+							<h4>人气女鞋</h4>
+							<div class="c-1">
+								<a href="">帆布鞋</a>
+								<a href="" >休闲鞋</a>
+								<a href="" >运动鞋</a>
+								<a href="">凉拖凉鞋</a>
+								<a href="">潮靴</a>
+								<a href="">商务鞋</a>
+								<a href="">时装鞋</a>
+								<a href="">跑步鞋</a>
+							</div>
+						</div>
+						<!--图片和品牌-->
+						<div class="img-brand">
+							<img src="../img/intro5.jpg" />
+							<div>
+								<p>鞋热门品牌</p>
+								<div class="intro-img-layout">
+									<img src="../img/intro-img5-1.jpg"/>
+									<img src="../img/intro-img5-2.jpg"/>
+									<img src="../img/intro-img5-3.jpg"/>
+									<img src="../img/intro-img5-4.jpg"/>
+									<img src="../img/intro-img5-5.jpg"/>
+									<img src="../img/intro-img5-6.jpg"/>
+									<img src="../img/intro-img5-7.jpg"/>
+									<img src="../img/intro-img5-8.jpg"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--第六种类型-->
+				<div class="category-layout" id="category6">
+					<div class="">
+						<h5>箱包</h5>
+						<div class="sub-layout">
+							<a href="">双肩包</a>
+							<a href="">斜挎包</a>
+							<a href="">钱包</a>
+							<a href="">男包</a>
+							<a href="">女包</a>
+						</div>
+						<img src="../img/p-bg.png" class="right-arrow" id="arrow-right6" />
+					</div>
+
+					<div class="goods-intro" id="goods-intro6">
+						<!--向左的图标-->
+						<div class="left-arrow-layout">
+							<div class="icon6">
+								<img src="../img/li-bg.png" />
+							</div>
+						</div>
+						<!--详细的介绍内容-->
+						<div class="category-intro">
+							<h4>品质男包</h4>
+							<div class="c-1">
+								<a href="">双肩包</a>
+								<a href="" >斜挎包</a>
+								<a href="" >书包</a>
+								<a href="">钱包</a>
+								<a href="">拉杆箱</a>
+								<a href="">胸包</a>
+								<a href="">手提包</a>
+								<a href="">单肩包</a>
+								<a href="">腰包</a>
+							</div>
+							<h4>潮流女包</h4>
+							<div class="c-1">
+								<a href="">书包</a>
+								<a href="" >双肩包</a>
+								<a href="" >手提包</a>
+								<a href="">斜挎包</a>
+								<a href="">手拿包</a>
+								<a href="">单肩包</a>
+								<a href="" >钱包/卡包</a>
+								<a href="">拉杆箱</a>
+								<a href="">化妆包</a>
+								<a href="">收纳包</a>
+							</div>
+						</div>
+						<!--图片和品牌-->
+						<div class="img-brand">
+							<img src="../img/intro6.jpg" />
+							<div>
+								<p>箱包热门品牌</p>
+								<div class="intro-img-layout">
+									<img src="../img/intro-img6-1.jpg"/>
+									<img src="../img/intro-img6-2.jpg"/>
+									<img src="../img/intro-img6-3.jpg"/>
+									<img src="../img/intro-img6-4.jpg"/>
+									<img src="../img/intro-img6-5.jpg"/>
+									<img src="../img/intro-img6-6.jpg"/>
+									<img src="../img/intro-img6-7.jpg"/>
+									<img src="../img/intro-img6-8.png"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--第七种类型-->
+				<div class="category-layout" id="category7">
+					<div class="">
+						<h5>佩饰/内衣</h5>
+						<div class="sub-layout">
+							<a href="" class="specilly">男内裤</a>
+							<a href="">男袜</a>
+							<a href="">女袜</a>
+							<a href="">棒球帽</a>
+							<a href="">男腰带</a>
+						</div>
+						<img src="../img/p-bg.png" class="right-arrow" id="arrow-right7" />
+					</div>
+
+					<div class="goods-intro" id="goods-intro7">
+						<!--向左的图标-->
+						<div class="left-arrow-layout">
+							<div class="icon7">
+								<img src="../img/li-bg.png" />
+							</div>
+						</div>
+						<!--详细的介绍内容-->
+						<div class="category-intro">
+							<h4>配饰</h4>
+							<div class="c-1">
+								<a href="">腰带/皮带</a>
+								<a href="" >帽子</a>
+								<a href="" >手套</a>
+								<a href="">围巾/丝巾/披肩</a>
+								<a href="">腕表</a>
+							</div>
+							<h4>内衣</h4>
+							<div class="c-1">
+								<a href="">内衣上装</a>
+								<a href="" >内衣下装</a>
+								<a href="" >家居套装</a>
+								<a href="">文胸</a>
+								<a href="">袜子</a>
+							</div>
+						</div>
+						<!--图片和品牌-->
+						<div class="img-brand">
+							<img src="../img/intro7.jpg" />
+							<div>
+								<p>配饰/内衣热门品牌</p>
+								<div class="intro-img-layout">
+									<img src="../img/intro-img7-1.jpg"/>
+									<img src="../img/intro-img7-2.jpg"/>
+									<img src="../img/intro-img7-3.jpg"/>
+									<img src="../img/intro-img7-4.png"/>
+									<img src="../img/intro-img7-5.jpg"/>
+									<img src="../img/intro-img7-6.jpg"/>
+									<img src="../img/intro-img7-7.jpg"/>
+									<img src="../img/intro-img7-8.jpg"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--第八种类型-->
+				<div class="category-layout" id="category8">
+					<div class="">
+						<h5>折扣<span>SALE</span></h5>
+						<div class="sub-layout">
+							<a href="">1折区</a>
+							<a href="">2折区</a>
+							<a href="">3折区</a>
+							<a href="" class="specilly">59元封顶</a>
+						</div>
+						<img src="../img/p-bg.png" class="right-arrow" id="arrow-right8" />
+					</div>
+
+					<div class="goods-intro" id="goods-intro8">
+						<!--向左的图标-->
+						<div class="left-arrow-layout">
+							<div class="icon8">
+								<img src="../img/li-bg.png" />
+							</div>
+						</div>
+						<!--详细的介绍内容-->
+						<div class="category-intro">
+							<h4>一折区</h4>
+							<div class="c-1">
+								<a href="">男生</a>
+								<a href="" >女生</a>
+								<a href="" >童装</a>
+								<a href="">鞋履</a>
+								<a href="">箱包</a>
+								<a href="">配饰</a>
+							</div>
+							<h4>二折区</h4>
+							<div class="c-1">
+								<a href="">男生</a>
+								<a href="" >女生</a>
+								<a href="" >童装</a>
+								<a href="">鞋履</a>
+								<a href="">箱包</a>
+								<a href="">配饰</a>
+							</div>
+							<h4>三折区</h4>
+							<div class="c-1">
+								<a href="">男生</a>
+								<a href="" >女生</a>
+								<a href="" >童装</a>
+								<a href="">鞋履</a>
+								<a href="">箱包</a>
+								<a href="">配饰</a>
+							</div>
+							<h4>三折封顶</h4>
+							<div class="c-1">
+								<a href="">男生</a>
+								<a href="" >女生</a>
+								<a href="" >童装</a>
+								<a href="">鞋履</a>
+								<a href="">箱包</a>
+								<a href="">配饰</a>
+							</div>
+						</div>
+						<!--图片和品牌-->
+						<div class="img-brand">
+							<img src="../img/intro8.jpg" />
+							<!--<div>
+								<p>男装热门品牌</p>
+								<div class="intro-img-layout">
+									<img src="../img/intro-img8-1.png"/>
+									<img src="../img/intro-img8-2.jpg"/>
+									<img src="../img/intro-img8-3.png"/>
+									<img src="../img/intro-img8-4.jpg"/>
+									<img src="../img/intro-img8-5.jpg"/>
+									<img src="../img/intro-img8-6.jpg"/>
+									<img src="../img/intro-img8-7.png"/>
+									<img src="../img/intro-img8-8.jpg"/>
+								</div>
+							</div>-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--中间的banner图-->
+			<div class="middle-layout" id="mid-banner">
+				<div id="banner-layout" >
+					<!--<img src="../img/demoing/banner1.jpg" />-->
+				</div>
+				<ul id="banner-title">
+					<li>
+						<a href="">周年庆预热</a>|</li>
+					<li>
+						<a href="">每满159减50</a>|</li>
+					<li>
+						<a href="">夏新品买即赠</a>|</li>
+					<li>
+						<a href="">衬衫/T恤1折起</a>
+					</li>
+				</ul>
+			</div>
+			<!--右边两张图-->
+			<div class="goods-img">
+				<img src="../img/banner-right-1.jpg" />
+				<img src="../img/banner-right-2.jpg" />
+			</div>
+		</div>
+
+		<!-- 第五行布局-->
+		<div class="imgs-layout">
+			<div id="imgs1">
+				<img src="../img/jmsg-mb.jpg" />
+				<img src="../img/jmsg-mb2.jpg" class="img-margin" />
+				<img src="../img/jmsg-mb3.jpg" class="img-margin" />
+				<img src="../img/jmsg-mb4.jpg" class="img-margin" />
+				<img src="../img/jmsg-mb5.jpg" class="img-margin" />
+			</div>
+			<div id="imgs2">
+				<img src="../img/jmsg-mb6.jpg" />
+				<img src="../img/jmsg-mb7.jpg" class="img-margin" />
+				<img src="../img/jmsg-mb8.jpg" class="img-margin" />
+				<img src="../img/jmsg-mb9.jpg" class="img-margin" />
+				<img src="../img/jmsg-mb10.jpg" class="img-margin" />
+			</div>
+			<img src="../img/rec_btn_lt.png" id="lt-btn"/>
+			<img src="../img/rec_btn_rt.png" id="rt-btn"/>
+		</div>
+
+		<!-- 相同的商品布局(男生馆)-->
+		<div class="goods-section">
+			<div class="title-layout">
+				<h3>男生馆</h3>
+				<div class="title-right">
+					<ul>
+						<li>
+							<a href="" class="checked1">热门</a>|</li>
+						<li>
+							<a href="">夹克</a>|</li>
+						<li>
+							<a href="">长袖衬衫</a>|</li>
+						<li>
+							<a href="">裤装</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-layout">
+				<div class="l-1">
+					<img src="../img/boy1.jpg" />
+					<div class="category-name">
+						<a href="">风衣夹克</a>
+						<a href="">长袖衬衫</a>
+						<a href="">时尚卫衣</a>
+						<a href="">休闲长裤</a>
+						<a href="">潮流鞋履</a>
+						<a href="">箱包佩饰</a>
+					</div>
+					<div class="category-img">
+						<a href=""><img src="../img/boy-logo1.jpg" /></a>
+						<a href=""><img src="../img/boy-logo2.jpg" /></a>
+						<a href=""><img src="../img/boy-logo3.jpg" /></a>
+						<a href=""><img src="../img/boy-logo4.jpg" /></a>
+						<a href=""><img src="../img/boy-logo5.jpg" /></a>
+						<a href=""><img src="../img/boy-logo6.jpg" /></a>
+					</div>
+				</div>
+				<div class="l-2">
+					<a href=""><img src="../img/boy2.jpg" /></a>
+				</div>
+				<div class="l-3">
+					<a href=""><img src="../img/boy3.jpg" /></a>
+					<a href=""><img src="../img/boy4.jpg" /></a>
+					<a href=""><img src="../img/boy5.jpg" /></a>
+				</div>
+				<div class="l-4">
+					<a href=""><img src="../img/boy6.jpg" /></a>
+					<a href=""><img src="../img/boy7.jpg" /></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- 相同的商品布局(女生馆)-->
+		<div class="goods-section">
+			<div class="title-layout">
+				<h3>女生馆</h3>
+				<div class="title-right">
+					<ul>
+						<li>
+							<a href="" class="checked1">热门</a>|</li>
+						<li>
+							<a href="">夹克</a>|</li>
+						<li>
+							<a href="">卫衣</a>|</li>
+						<li>
+							<a href="">裤装</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-layout">
+				<div class="l-1">
+					<img src="../img/girl1.jpg" />
+					<div class="category-name">
+						<a href="">卫衣夹克</a>
+						<a href="">长袖衬衫</a>
+						<a href="">气质裙装</a>
+						<a href="">牛仔长裤</a>
+						<a href="">休闲长裤</a>
+						<a href="">鞋包配</a>
+					</div>
+					<div class="category-img">
+						<a href=""><img src="../img/girl-logo1.jpg" /></a>
+						<a href=""><img src="../img/girl-logo2.jpg" /></a>
+						<a href=""><img src="../img/girl-logo3.jpg" /></a>
+						<a href=""><img src="../img/girl-logo4.jpg" /></a>
+						<a href=""><img src="../img/girl-logo5.jpg" /></a>
+						<a href=""><img src="../img/girl-logo6.jpg" /></a>
+					</div>
+				</div>
+				<div class="l-2">
+					<a href=""><img src="../img/girl2.jpg" /></a>
+				</div>
+				<div class="l-3">
+					<a href=""><img src="../img/girl3.jpg" /></a>
+					<a href=""><img src="../img/girl4.jpg" /></a>
+					<a href=""><img src="../img/girl5.jpg" /></a>
+				</div>
+				<div class="l-4">
+					<a href=""><img src="../img/girl6.jpg" /></a>
+					<a href=""><img src="../img/girl7.jpg" /></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- 相同的商品布局(潮牌馆)-->
+		<div class="goods-section">
+			<div class="title-layout">
+				<h3>潮牌馆</h3>
+				<div class="title-right">
+					<ul>
+						<li>
+							<a href="" class="checked1">热门</a>|</li>
+						<li>
+							<a href="">卫衣夹克</a>|</li>
+						<li>
+							<a href="">衬衫T恤</a>|</li>
+						<li>
+							<a href="">潮鞋</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-layout">
+				<div class="l-1">
+					<img src="../img/cplc1.jpg" />
+					<div class="category-name">
+						<a href="">外套</a>
+						<a href="">衬衫</a>
+						<a href="">卫衣</a>
+						<a href="">裤装</a>
+						<a href="">裙装</a>
+						<a href="">鞋履</a>
+					</div>
+					<div class="category-img">
+						<a href=""><img src="../img/chao-logo1.jpg" /></a>
+						<a href=""><img src="../img/chao_logo2.jpg" /></a>
+						<a href=""><img src="../img/chao_logo3.jpg" /></a>
+						<a href=""><img src="../img/chao_logo4.jpg" /></a>
+						<a href=""><img src="../img/chao_logo5.jpg" /></a>
+						<a href=""><img src="../img/chao_logo6.jpg" /></a>
+					</div>
+				</div>
+				<div class="l-2">
+					<a href=""><img src="../img/cplc2.jpg" /></a>
+				</div>
+				<div class="l-3">
+					<a href=""><img src="../img/cplc3.jpg" /></a>
+					<a href=""><img src="../img/cplc4.jpg" /></a>
+					<a href=""><img src="../img/cplc5.jpg" /></a>
+				</div>
+				<div class="l-4">
+					<a href=""><img src="../img/cplc6.jpg" /></a>
+					<a href=""><img src="../img/cplc7.jpg" /></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- 相同的商品布局(运动馆)-->
+		<div class="goods-section">
+			<div class="title-layout">
+				<h3>运动馆</h3>
+				<div class="title-right">
+					<ul>
+						<li>
+							<a href="" class="checked1">热门</a>|</li>
+						<li>
+							<a href="">跑步鞋</a>|</li>
+						<li>
+							<a href="">篮球鞋</a>|</li>
+						<li>
+							<a href="">运动服</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-layout">
+				<div class="l-1">
+					<img src="../img/sport1.jpg" />
+					<div class="category-name">
+						<a href="">运动鞋</a>
+						<a href="">跑步鞋</a>
+						<a href="">帆布鞋</a>
+						<a href="">休闲鞋</a>
+						<a href="">运动服</a>
+						<a href="">运动包配</a>
+					</div>
+					<div class="category-img">
+						<a href=""><img src="../img/sport-logo1.jpg" /></a>
+						<a href=""><img src="../img/sport-logo2.jpg" /></a>
+						<a href=""><img src="../img/sport-logo3.jpg" /></a>
+						<a href=""><img src="../img/sport-logo4.jpg" /></a>
+						<a href=""><img src="../img/sport-logo5.jpg" /></a>
+						<a href=""><img src="../img/sport-logo6.jpg" /></a>
+					</div>
+				</div>
+				<div class="l-2">
+					<a href=""><img src="../img/sport2.jpg" /></a>
+				</div>
+				<div class="l-3">
+					<a href=""><img src="../img/sport3.jpg" /></a>
+					<a href=""><img src="../img/sport4.jpg" /></a>
+					<a href=""><img src="../img/sport5.jpg" /></a>
+				</div>
+				<div class="l-4">
+					<a href=""><img src="../img/sport6.jpg" /></a>
+					<a href=""><img src="../img/sport7.jpg" /></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- 相同的商品布局(儿童馆)-->
+		<div class="goods-section">
+			<div class="title-layout">
+				<h3>儿童馆</h3>
+				<div class="title-right">
+					<ul>
+						<li>
+							<a href="" class="checked1">热门</a>|</li>
+						<li>
+							<a href="">毛衣卫衣</a>|</li>
+						<li>
+							<a href="">外套</a>|</li>
+						<li>
+							<a href="">裤装</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-layout">
+				<div class="l-1">
+					<img src="../img/kid1.jpg" />
+					<div class="category-name">
+						<a href="">舒适针织裤</a>
+						<a href="">长袖T恤</a>
+						<a href="">卫衣夹克</a>
+						<a href="">套装</a>
+						<a href="">牛仔长裤</a>
+						<a href="">鞋包配</a>
+					</div>
+					<div class="category-img">
+						<a href=""><img src="../img/kid-logo1.png" /></a>
+						<a href=""><img src="../img/kid-logo2.jpg" /></a>
+						<a href=""><img src="../img/kid-logo3.png" /></a>
+						<a href=""><img src="../img/kid-logo4.png" /></a>
+						<a href=""><img src="../img/kid-logo5.png" /></a>
+						<a href=""><img src="../img/kid-logo6.jpg" /></a>
+					</div>
+				</div>
+				<div class="l-2">
+					<a href=""><img src="../img/kid2.jpg" /></a>
+				</div>
+				<div class="l-3">
+					<a href=""><img src="../img/kid3.jpg" /></a>
+					<a href=""><img src="../img/kid4.jpg" /></a>
+					<a href=""><img src="../img/kid5.jpg" /></a>
+				</div>
+				<div class="l-4">
+					<a href=""><img src="../img/kid6.jpg" /></a>
+					<a href=""><img src="../img/kid7.jpg" /></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- 底部四张图片的介绍-->
+		<div class="bottom-img-layout">
+			<div class="b-img1">
+				<a href="" class=""><img src="../img/bottom-img1.png" /></a>
+			</div>
+			<div class="b-img2">
+				<a href="" class=""><img src="../img/bottom-img2.png" /></a>
+			</div>
+			<div class="b-img3">
+				<a href="" class=""><img src="../img/bottom-img3.png" /></a>
+			</div>
+			<div class="b-img4">
+				<a href="" class="">
+					<img src="../img/bottom-img4.jpg" />
+				</a>
+				<div class="img-content">
+					<figure>
+						<img src="../img/shop-b1.png" />
+						<figcaption>在线客服</figcaption>
+					</figure>
+					<div class="vertical-line"></div>
+					<figure>
+						<img src="../img/shop-b2.png" />
+						<figcaption>意见反馈</figcaption>
+					</figure>
+					<div class="vertical-line"> </div>
+					<figure>
+						<img src="../img/shop-b3.png" />
+						<figcaption>问卷调查</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+
+		<!-- 一些功能说明和介绍-->
+		<div class="intro-title">
+			<div class="sub-titles">
+				<span class="title1">新手指南</span>
+				<span class="title2">购物指南</span>
+				<span class="title3">配送方式</span>
+				<span class="title4">支付方式</span>
+				<span class="title5">售后服务</span>
+				<span class="title6">联系方式</span>
+			</div>
+		</div>
+
+		<!-- 一些使用的具体说明-->
+		<div class="intro-content">
+			<div class="content1">
+				<ul>
+					<li>
+						<a href="">注册新用户</a>
+					</li>
+					<li>
+						<a href="">用户协议</a>
+					</li>
+					<li>
+						<a href="">找回密码</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content2">
+				<ul>
+					<li>
+						<a href="">红包使用说明</a>
+					</li>
+					<li>
+						<a href="">购物流程</a>
+					</li>
+					<li>
+						<a href="">订单状态</a>
+					</li>
+					<li>
+						<a href="">邦购币绑定与使用</a>
+					</li>
+					<li>
+						<a href="">积分说明</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content3">
+				<ul>
+					<li>
+						<a href="">配送范围</a>
+					</li>
+					<li>
+						<a href="">订单拆分</a>
+					</li>
+					<li>
+						<a href="">商品验货与签收</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content4">
+				<ul>
+					<li>
+						<a href="">发票制度</a>
+					</li>
+					<li>
+						<a href="">支付方式</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content5">
+				<ul>
+					<li>
+						<a href="">退换货政策</a>
+					</li>
+					<li>
+						<a href="">退换办理流程</a>
+					</li>
+					<li>
+						<a href="">退款说明</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content6">
+				<ul>
+					<li>
+						<a href="">在线客服</a>
+					</li>
+					<li>
+						<a href="" class="firm">商家入驻：bgzs@metersbonwe.com</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--版权-->
+		<p class="banggo-right">CopyRight © 2000-2017, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com 沪ICP备05033127号 021-38119999</p>
+
+		<!--工商备案-->
+		<footer class="memo-layout">
+			<img src="../img/bottom-1.png" />
+			<img src="../img/bottom-2.png" />
+		</footer>
+
+		<!--右下角回到顶部的布局-->
+		<div class="right-totop">
+			<img src="../img/totop.png" id="totop" class="hidden" />
+			<img src="../img/kefu.png" />
+		</div>
+	</body>
+
+	<script type="text/javascript" src="../js/totop.js"></script>
+	<script type="text/javascript" src="../js/goods-intro.js"></script>
+	<script type="text/javascript" src="../js/banner.js"></script>
+	<script type="text/javascript" src="../js/Lookpic.js"></script>
+
+</html>

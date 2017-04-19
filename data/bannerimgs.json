@@ -1,0 +1,17 @@
+{
+	"imgs": [
+		{
+			"title": "周年庆预热",
+			"img": "../img/demoing/banner1.jpg"
+		}, {
+			"title": "每满159减50",
+			"img": "../img/demoing/banner2.jpg"
+		}, {
+			"title": "夏新品买即赠",
+			"img": "../img/demoing/banner3.jpg"
+		}, {
+			"title": "衬衫/T恤1折起",
+			"img": "../img/demoing/banner4.jpg"
+		}
+	]
+}

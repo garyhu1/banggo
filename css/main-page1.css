@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.ad-layout{
+	width: 100%;
+	height: 80px;
+	background: #F9E37E;
+}
+.bg-header-introline {
+	border-bottom: 1px solid #DCDCDC;
+}
+.bg-header-intro {
+	position: relative;
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.bg-header-intro p {
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+	font-size: 12px;
+	float: left;
+}
+.bg-right-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-left: 500px;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+}
+.bg-right-btn a{
+	color: #999999;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+/*登录按钮布局*/
+.bg-login-layout {
+	position: relative;
+}
+.others-login-types {
+	display: none;
+}
+.bg-login-layout:hover {
+	border-left: 1px solid #DCDCDC;
+	border-right: 1px solid #DCDCDC;
+}
+.bg-login-layout:hover .login-btn {
+	margin-bottom: -5px;
+}
+.bg-login-layout:hover .others-show{
+	position: absolute;
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	z-index: 200;
+	margin-left: -1px;
+	border: 1px solid #DCDCDC;
+}
+
+/*我的邦购布局样式*/
+.my-banggo-layout{
+	position: relative;
+}
+.my-banggo {
+	display: none;
+}
+.my-banggo-layout:hover {
+	border-left: 1px solid #DCDCDC;
+	border-right: 1px solid #DCDCDC;
+}
+.my-banggo-layout:hover .my-banggo-show a {
+	text-align: left;
+}
+.my-banggo-layout:hover .my-banggo-show {
+	position: absolute;
+	display: flex;
+	width: 80px;
+	margin-left: -1px;
+	flex-direction: column;
+	background: #fff;
+	z-index: 1000;
+	border-left: 1px solid #DCDCDC;
+	border-right: 1px solid #DCDCDC;
+	border-bottom: 1px solid #DCDCDC;
+}
+
+/*下载APP布局*/
+.download-layout {
+	position: relative;
+}
+.download{
+	display: none;
+}
+.download-layout:hover .download-show {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	z-index: 200;
+}
+
+/*微信布局*/
+.weixin-layout {
+	position: relative;
+}
+.weixin {
+	display: none;
+}
+.weixin-layout:hover .weixin-show{
+	display: block;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	z-index: 200;
+}

@@ -1,0 +1,111 @@
+/*第二行带搜索框的布局*/
+.second-layout {
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+}
+.search-edt {
+	margin-left: 40px;
+	height: 30px;
+	width: 300px;
+	padding-left: 5px;
+	outline: none;
+	border: 1px solid #D51819;
+}
+.search-btn {
+	height: 32px;
+	width: 50px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	border: none;
+	background: #D51819;
+}
+.cloth-style {
+	margin-left: 25px;
+	list-style: none;
+	overflow: hidden;
+}
+.cloth-style a {
+	color: #666666;
+	font-size: 12px;
+	padding: 0 5px;
+	text-decoration: none;
+}
+.cloth-style li {
+	float: left;
+	color: #E2DCE2;
+	font-size: 9px;
+}
+.cloth-style li:nth-child(1) a{
+	color: #D51819;
+}
+.cloth-style li:nth-child(3) a{
+	color: #D51819;
+}
+.cloth-style li:nth-child(6) a{
+	color: #D51819;
+}
+.cart-layout {
+	position: absolute;
+	height: 80px;
+	line-height: 80px;
+	right: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.cart-layout img{
+	width: 25px;
+	height: 26px;
+}
+.cart-layout p{
+	margin-left: 10px;
+	font-size: 13px;
+}
+.cart-layout p span {
+	color: #D51819;
+	font-size: 13px;
+}
+
+
+
+/*第三行商品分类布局*/
+.third-line{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #D51819;
+}
+.third-layout {
+	position: relative;
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.goods-category {
+	width: 235px;
+	height: 40px;
+	background: #D51819;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.nav-layout {
+	list-style: none;
+	overflow: hidden;
+}
+.nav-layout li{
+	float: left;
+	padding: 0 10px;
+}
+.nav-right {
+	position: absolute;
+	right: 0;
+}

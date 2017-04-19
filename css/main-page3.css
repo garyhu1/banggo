@@ -1,0 +1,526 @@
+.goods-category-layout {
+	width: 1200px;
+	height: 532px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+/*左边商品种类布局*/
+.bg-goods-category {
+	width: 233px;
+	height: 530px;
+	border-bottom: 1px solid #D51819;
+	border-right: 1px solid #D51819;
+	border-left: 1px solid #D51819;
+}
+.bg-goods-category h5{
+	cursor: pointer;
+}
+.bg-goods-category a{
+	cursor: pointer;
+	color: #696969;
+	font-size: 14px;
+	margin-right: 8px;
+	text-decoration: none;
+}
+.category-layout {
+	position: relative;
+	width: 233px;
+	margin: 10px 10px 0px 10px;
+}
+.sub-layout{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	line-height: 22px;
+}
+.bg-goods-category .specilly {
+	color: #D51819;
+}
+.right-arrow {
+	position: absolute;
+	right: 20px;
+	top: 3px;
+}
+/*商品的详细说明*/
+.goods-intro {
+	position: absolute;
+	display: none;
+	width: 725px;
+	height: 530px;
+	flex-direction: row;
+	border-bottom: 1px solid #C3C3C3;
+	border-left: 1px solid #C3C3C3;
+	border-right: 1px solid #C3C3C3;
+	top: -10px;
+	left: 224px;
+	background: #fff;
+	z-index: 100;
+}
+#goods-intro2 {
+	top: -81px;
+}
+#goods-intro3 {
+	top: -150px;
+}
+#goods-intro4 {
+	top: -222px;
+}
+#goods-intro5 {
+	top: -293px;
+}
+#goods-intro6 {
+	top: -365px;
+}
+#goods-intro7 {
+	top: -413px;
+}
+#goods-intro8 {
+	top: -463px;
+}
+.left-arrow-layout {
+	position: relative;
+}
+.left-arrow-layout div {
+	position: absolute;
+	left: -7px;
+}
+.icon1{
+	display: none;
+	top: 10px;
+}
+.icon2{
+	display: none;
+	top: 81px;
+}
+.icon3{
+	display: none;
+	top: 150px;
+}
+.icon4{
+	display: none;
+	top: 222px;
+}
+.icon5{
+	display: none;
+	top: 293px;
+}
+.icon6{
+	display: none;
+	top: 365px;
+}
+.icon7{
+	display: none;
+	top: 413px;
+}
+.icon8{
+	display: none;
+	top: 463px;
+}
+/* 中间banner布局*/
+.middle-layout {
+	position: relative;
+	width: 720px;
+	height: 520px;
+}
+#banner-layout {
+	width: 720px;
+	height: 475px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#banner-layout ul{
+	position: relative;
+	list-style: none;
+	width: 720px;
+	height: 475px;
+}
+#banner-layout ul li {
+	position: absolute;
+	width: 720px;
+	height: 475px;
+	top: 0;
+	left: 0;
+}
+#banner-title {
+	list-style: none;
+	width: 718px;
+	height: 45px;
+	border: 1px solid #DCDCDC;
+	overflow: hidden;
+	margin-top: 4px;
+	margin-left: 5px;
+}
+#banner-title li {
+	width: 179px;
+	height: 47px;
+	line-height: 47px;
+	float: left;
+	color: #999;
+	font-size: 12px;
+}
+#banner-title li a {
+	width: 130px;
+	height: 47px;
+	display: inline-block;
+	text-decoration: none;
+	color: #7D6666;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	border-top: 2px solid #fff;
+	text-align: center;
+}
+#banner-title li .pressed {
+	border-top: 2px solid #D51819;
+	color: #000000;
+}
+
+/*右边两张图的布局*/
+.goods-img {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	width: 236px;
+}
+.goods-img img{
+	margin-top: 5px;
+}
+
+
+/*第五行存放五张小图的布局*/
+.imgs-layout{
+	width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+	margin-top: 5px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+#imgs1{
+	display: flex;
+	width: 1200px;
+	height: 100%;
+	flex-direction: row;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#imgs1 img{
+	width: 235px;
+	height: 120px;
+}
+#imgs2{
+	display: flex;
+	width: 1200px;
+	height: 100%;
+	flex-direction: row;
+	position: absolute;
+	top: 0;
+	left: 1200px;
+}
+#imgs2 img{
+	width: 235px;
+	height: 120px;
+}
+#imgs2 .img-margin{
+	margin-left: 6px;
+}
+#imgs1 .img-margin {
+	margin-left: 6px;
+}
+/*左右按钮*/
+.imgs-layout #lt-btn{
+	position: absolute;
+	top: 40px;
+	left: 5px;
+	cursor: pointer;
+}
+.imgs-layout #rt-btn{
+	position: absolute;
+	top: 40px;
+	right: 5px;
+	cursor: pointer;
+}
+
+
+
+/*相同商品的样式*/
+.goods-section{
+	width: 1200px;
+	height: 510px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+/*标题布局*/
+.title-layout {
+	position: relative;
+}
+.title-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.title-right ul{
+	list-style: none;
+}
+.title-right ul li {
+	float: left;
+	color: #999999;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+}
+.title-right ul li a {
+	text-decoration: none;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	color: #999999;
+	font-size: 14px;
+	margin: 0 5px;
+	width: 60px;
+	text-align: center;
+}
+.title-right ul li .checked1 {
+	color: #D51819;
+	border-bottom: 2px solid #D51819;
+}
+/*内容布局*/
+.content-layout {
+	width: 1200px;
+	height: 475px;
+	display: flex;
+	flex-direction: row;
+	
+}
+/*第一部分布局*/
+.l-1 {
+	width: 235px;
+	height: 475px;
+}
+/*款式名称*/
+.category-name {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: #FAFAFA;
+	width: 235px;
+	height: 100px;
+	padding-top: 10px;
+}
+.category-name a{
+	color: #000000;
+	font-size: 13px;
+	text-decoration: none;
+	margin: 0 20px;
+	cursor: pointer;
+}
+/*品牌商标*/
+.category-img {
+	width: 240px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.category-img a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*第二列布局*/
+.l-2 a {
+	cursor: pointer;
+}
+
+/*第三例布局*/
+.l-3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 480px;
+	height: 479px;
+	overflow: hidden;
+}
+
+/*第四列布局*/
+.l-4 {
+	display: flex;
+	flex-direction: column;
+	/*flex-wrap: wrap;*/
+	width: 240px;
+	height: 479px;
+	overflow: hidden;
+}
+
+
+
+/*底部图片的布局*/
+.bottom-img-layout {
+	width: 1199px;
+	height: 237px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	border-top: 0.5px solid #DCDCDC;
+	border-bottom: 0.5px solid #DCDCDC;
+	border-left: 0.5px solid #DCDCDC;
+}
+.bottom-img-layout a {
+	cursor: pointer;
+	display: flex;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+}
+.bottom-img-layout .b-img1 {
+	width: 277.5px;
+	height: 237px;
+}
+.bottom-img-layout .b-img2 {
+	width: 278.5px;
+	height: 237px;
+	border-left: 0.5px solid #DCDCDC;
+}
+.bottom-img-layout .b-img3 {
+	width: 279px;
+	height: 237px;
+	border-left: 0.5px solid #DCDCDC;
+}
+.bottom-img-layout .b-img4 {
+	width: 359px;
+	height: 237px;
+	border-left: 0.5px solid #DCDCDC;
+	border-right: 0.5px solid #DCDCDC;
+	flex-direction: column;
+}
+.bottom-img-layout .b-img4 a img{
+	width: 360px;
+}
+.bottom-img-layout .b-img4 .img-content {
+	display: flex;
+	height: 90px;
+	background: #FAFAFA;
+	flex-direction: row;
+}
+.bottom-img-layout .b-img4 .img-content figure {
+	width: 118.5px;
+	height: 90px;
+	justify-content: center;
+	background: #FAFAFA;
+	display: flex;
+	flex-direction: column ;
+	align-items: center;
+	cursor: pointer;
+}
+.bottom-img-layout .b-img4 .img-content figure figcaption {
+	color: #999999;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 8px;
+}
+.bottom-img-layout .vertical-line {
+	width: 1px;
+	height: 60px;
+	margin: 15px 0;
+	background: #DCDCDC;
+}
+
+
+/*一些功能说明和介绍*/
+.intro-title {
+	width: 100%;
+	height: 39px;
+	background: #F7F7F7;
+	border-top: 1px solid #DCDCDC;
+	margin-top: 50px;
+}
+.sub-titles {
+	width: 1200px;
+	height: 39px;
+	margin: 0 auto;
+}
+.sub-titles span {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 39px;
+	margin-right: 140px;
+}
+
+/*一些使用的具体说明*/
+.intro-content {
+	width: 1200px;
+	height: 170px;
+	border-bottom: 1px solid #999999;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.intro-content ul {
+	list-style: none;
+	margin-top: 10px;
+	width: 150px;
+	margin-right: 50px;
+}
+.intro-content ul li {
+}
+.intro-content a {
+	color: #231815;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 30px;
+}
+.intro-content .firm {
+	line-height: 0px;
+}
+
+
+
+
+/*邦购的版权*/
+.banggo-right {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	color: #78788D;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+/*备案的布局样式*/
+.memo-layout {
+	width: 260px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*右下角回到顶部的布局*/
+.right-totop {
+	width: 57px;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+}
+.right-totop img {
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
